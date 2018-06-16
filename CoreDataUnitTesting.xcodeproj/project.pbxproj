@@ -14,6 +14,7 @@
 		D445BDA220D52E1100844662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D445BDA120D52E1100844662 /* Assets.xcassets */; };
 		D445BDA520D52E1100844662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D445BDA320D52E1100844662 /* LaunchScreen.storyboard */; };
 		D445BDB020D52E1100844662 /* CoreDataUnitTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445BDAF20D52E1100844662 /* CoreDataUnitTestingTests.swift */; };
+		D49AC1EF20D53AF0001476FA /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49AC1ED20D53A6E001476FA /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		D445BDAB20D52E1100844662 /* CoreDataUnitTestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataUnitTestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D445BDAF20D52E1100844662 /* CoreDataUnitTestingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataUnitTestingTests.swift; sourceTree = "<group>"; };
 		D445BDB120D52E1100844662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D49AC1ED20D53A6E001476FA /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				D445BDA320D52E1100844662 /* LaunchScreen.storyboard */,
 				D445BDA620D52E1100844662 /* Info.plist */,
 				D445BD9E20D52E0F00844662 /* CoreDataUnitTesting.xcdatamodeld */,
+				D49AC1ED20D53A6E001476FA /* StorageManager.swift */,
 			);
 			path = CoreDataUnitTesting;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				D445BDA020D52E0F00844662 /* CoreDataUnitTesting.xcdatamodeld in Sources */,
 				D445BD9A20D52E0F00844662 /* ViewController.swift in Sources */,
 				D445BD9820D52E0F00844662 /* AppDelegate.swift in Sources */,
+				D49AC1EF20D53AF0001476FA /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
